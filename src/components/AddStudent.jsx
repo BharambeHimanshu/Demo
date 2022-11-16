@@ -43,7 +43,7 @@ export default function AddStudent(){
                       className="border border-gray-400 py-1 px-2 w-full"
                     />
                   </div>
-                    <div class="main flex border rounded-full overflow-hidden m-4 select-none">
+                    <div class="main flex border rounded-full overflow-hidden m-4 select-none ml-10">
                     <div class="title py-3 px-5 bg-blue-500 text-white text-sm font-semibold mr-3">Shift</div>
                     <label class="flex radio p-2 cursor-pointer">
                         <input class="my-auto transform scale-125" type="radio" name="sfg" />
