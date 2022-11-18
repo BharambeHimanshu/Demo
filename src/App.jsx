@@ -7,6 +7,7 @@ import AddTeacher from "./components/AddTeacher"
 import DeleteTeacher from "./components/DeleteTeacher"
 import AllocateMentor from "./components/AllocateMentor"
 import SubMenu from "./components/SubMenu"
+import ViewAllocateMentor from "./components/ViewAllocatedMentor"
 
 export default function App(){
   return(
@@ -20,6 +21,7 @@ export default function App(){
     <FileUpload />
     <AllocateMentor />
     <SubMenu />
+    <ViewAllocateMentor />
     </>
   )
 }

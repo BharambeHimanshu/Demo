@@ -15,7 +15,6 @@ export default function AllocateMentor(){
                 <div className="overflow-auto lg:overflow-visible">
                 <div className="flex lg:justify-between border-b-2 pb-1">
                     <h2 className="text-2xl text-white font-bold">Allocate Mentor</h2>
-                    
                     <div className="text-right flex-auto">
                     <input 
                         type="text"
@@ -23,6 +22,7 @@ export default function AllocateMentor(){
                         placeholder="Search"
                         className="w-1/3 py-2 bg-gray-200 text-slate-50 text-center rounded-xl" />
                     </div>
+                    
 
                 </div>
                 <div className="col-span-12">
@@ -114,6 +114,9 @@ export default function AllocateMentor(){
                 </div>
             </div>
                 </div>
+                <button className="text-center bg-transparent hover:bg-gray-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded">
+                    Allocate
+                </button>
             </div>
             </div> 
         </div>
