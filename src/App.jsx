@@ -10,6 +10,8 @@ import SubMenu from "./components/SubMenu"
 import ViewAllocateMentor from "./components/ViewAllocatedMentor"
 import ChangePassword from "./components/ChangePassword"
 import ChangeInfo from "./components/ChangeInfo"
+import AllocatedStudent from "./components/AllocatedStudents"
+import StudentList from "./components/StudentsList"
 
 export default function App(){
   return(
@@ -20,10 +22,12 @@ export default function App(){
     <AddTeacher />
     <DeleteTeacher />
     <ViewTeacher />
-    <FileUpload />
     <AllocateMentor />
-    <SubMenu />
     <ViewAllocateMentor />
+    <StudentList />
+    <AllocatedStudent />
+    <FileUpload />
+    <SubMenu />
     <ChangePassword />
     <ChangeInfo />
     </>
