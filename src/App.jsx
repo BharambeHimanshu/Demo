@@ -8,6 +8,8 @@ import DeleteTeacher from "./components/DeleteTeacher"
 import AllocateMentor from "./components/AllocateMentor"
 import SubMenu from "./components/SubMenu"
 import ViewAllocateMentor from "./components/ViewAllocatedMentor"
+import ChangePassword from "./components/ChangePassword"
+import ChangeInfo from "./components/ChangeInfo"
 
 export default function App(){
   return(
@@ -22,6 +24,8 @@ export default function App(){
     <AllocateMentor />
     <SubMenu />
     <ViewAllocateMentor />
+    <ChangePassword />
+    <ChangeInfo />
     </>
   )
 }

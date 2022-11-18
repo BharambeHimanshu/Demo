@@ -30,9 +30,9 @@ export default function DeleteTeacher(){
                     />
                   </div>
                   <div className="mt-5">
-                  <button className="w-full rounded-full bg-gray-700 py-3 text-center text-white hover:bg-gray-900 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                      DELETE
-                    </button>
+                  <button className="text-center bg-transparent hover:bg-gray-800 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-500">
+                        Delete
+                  </button>
                   </div>
                 </form>
               </div>

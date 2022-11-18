@@ -15,6 +15,24 @@ export default function ViewAllocateMentor(){
                 <div className="overflow-auto lg:overflow-visible">
                 <div className="flex lg:justify-between border-b-2 pb-1">
                     <h2 className="text-2xl text-white font-bold">View Mentor</h2>
+
+                    <div className="relative">
+                        <button className="flex items-center h-8 pl-3 pr-2 border border-gray-700 focus:outline-none bg-gray-200">
+                            <span className="text-sm leading-none text-center">
+                                Dropdown
+                            </span>
+                            <svg className="w-4 h-4 mt-px ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div className="absolute flex flex-col w-40 mt-1 border border-gray-700 shadow-lg bg-gray-200">
+                            <input className="flex items-center h-8 px-3 text-sm border-b border-black hover:bg-gray-200 focus:outline-none" type="search" name="" id="" placeholder="Search…"/>
+                            <a className="flex items-center h-8 px-3 text-sm hover:bg-gray-50" href="#">Item 1</a>
+                            <a className="flex items-center h-8 px-3 text-sm hover:bg-gray-50" href="#">Item 2</a>
+                            <a className="flex items-center h-8 px-3 text-sm hover:bg-gray-50" href="#">Item 3</a>
+                            <a className="flex items-center h-8 px-3 text-sm hover:bg-gray-50" href="#">Item 4</a>
+                        </div>
+                    </div>
                     <div className="text-right flex-auto">
                     <input 
                         type="text"

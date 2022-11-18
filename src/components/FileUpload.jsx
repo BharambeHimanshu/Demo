@@ -34,7 +34,7 @@ export default function FileUpload() {
             </ul>
           </section>
           <footer className="flex justify-end px-8 pb-8 pt-4">
-            <button id="submit" className="rounded-sm px-3 py-1 bg-blue-700 hover:bg-blue-500 text-white focus:shadow-outline focus:outline-none">
+            <button id="submit" className="rounded-sm px-3 py-1 bg-gray-500 hover:bg-gray-800 text-slate-50 focus:shadow-outline focus:outline-none">
               Upload now
             </button>
             <button id="cancel" className="ml-3 rounded-sm px-3 py-1 hover:bg-gray-300 focus:shadow-outline focus:outline-none">

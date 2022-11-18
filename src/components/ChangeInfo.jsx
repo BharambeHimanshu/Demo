@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AddStudent(){
+export default function ChangeInfo(){
     return(
         <>
         <div
@@ -13,10 +13,10 @@ export default function AddStudent(){
                 className="bg-[url('https://i.ibb.co/TbFbD4W/Project.webp')] w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center"
                 style={{ backgroundImage: "https://i.ibb.co/TbFbD4W/Project.webp"}}
               >
-                <h1 className="text-white text-3xl mb-3">ADD STUDENT</h1>
+                <h1 className="text-white text-3xl mb-3">Change Info</h1>
                 <div>
                   <p className="text-white">
-                    Fill the form to add a new student to the System.
+                    Enter the Details to change the Information.
                   </p>
                 </div>
               </div>
@@ -25,39 +25,20 @@ export default function AddStudent(){
                   <div className="mt-5 ">
                     <input
                       type="text"
-                      placeholder="Name"
+                      placeholder="Email ID"
                       className="border border-gray-400 py-1 px-2 w-full rounded"
                     />
                   </div>
                   <div className="mt-5">
                     <input
-                      type="text"
-                      placeholder="Enrollment No"
+                      type="string"
+                      placeholder="Mobile NO"
                       className="border border-gray-400 py-1 px-2 w-full"
                     />
                   </div>
-                  <div className="mt-5">
-                    <input
-                      type=""
-                      placeholder="Password"
-                      className="border border-gray-400 py-1 px-2 w-full"
-                    />
-                  </div>
-                    <div class="main flex border overflow-hidden m-4 select-none ml-10">
-                    <div class="title py-3 px-5 bg-gray-500 text-white text-sm font-semibold">Shift</div>
-                    <label class="flex radio p-2 cursor-pointer">
-                        <input class="my-auto transform scale-125" type="radio" name="sfg" />
-                        <div class="title px-2">First</div>
-                    </label>
-
-                    <label class="flex radio p-2 cursor-pointer">
-                        <input class="my-auto transform scale-125" type="radio" name="sfg" />
-                        <div class="title px-2">Second</div>
-                    </label>
-                    </div>
                     <div className="mt-5">
                     <button className="text-center bg-transparent hover:bg-gray-800 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-500">
-                        Add
+                        Change
                     </button>
                   </div>
                 </form>
