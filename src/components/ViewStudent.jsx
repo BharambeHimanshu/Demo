@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ViewSudent(){
+export default function ViewStudent(){
     return(
         <>
         <link
@@ -8,9 +8,23 @@ export default function ViewSudent(){
             rel="stylesheet"/>
         <div
           className="flex items-center justify-center min-h-screen"
-          style={{ backgroundImage: "linear-gradient(#DCDCDC,#D3D3D3,#808080)" }}
+          style={{ backgroundImage: "linear-gradient(#1d2630,#485563)" }}
         >
+            <div className="flex items-center justify-center ">
             <div className="col-span-12">
+                <div className="overflow-auto lg:overflow-visible">
+                <div className="flex lg:justify-between border-b-2 pb-1">
+                    <h2 className="text-2xl text-white font-bold">Students List</h2>
+                    <div className="text-right flex-auto">
+                    <input 
+                        type="text"
+                        name="name"
+                        placeholder="Search"
+                        className="w-1/3 py-2 bg-gray-200 text-slate-50 text-center rounded-xl" />
+                    </div>
+
+                </div>
+                <div className="col-span-12">
                 <div className="overflow-auto lg:overflow-visible ">
                     <table className="table text-slate-50 border-separate space-y-6 text-sm">
                         <thead className="bg-indigo-800 text-slate-50">
@@ -112,6 +126,9 @@ export default function ViewSudent(){
                     </table>
                 </div>
             </div>
+                </div>
+            </div>
+            </div> 
         </div>
         </>
     )

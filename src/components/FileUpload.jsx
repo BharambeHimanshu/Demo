@@ -5,7 +5,7 @@ export default function FileUpload() {
         <>
         <div
           className="min-h-screen py-40"
-              style={{ backgroundImage: "linear-gradient(#DCDCDC,#D3D3D3,#808080)" }}
+              style={{ backgroundImage: "linear-gradient(#1d2630,#485563)" }}
         >
       <main className="container mx-auto max-w-screen-lg h-full">
         <article aria-label="File Upload Modal" className="relative h-full flex flex-col bg-white shadow-xl rounded-md" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" ondragleave="dragLeaveHandler(event);" ondragenter="dragEnterHandler(event);">
