@@ -13,6 +13,7 @@ import ChangeInfo from "./components/ChangeInfo"
 import AllocatedStudent from "./components/AllocatedStudents"
 import StudentList from "./components/StudentsList"
 import GoogleForm from "./components/GoogleForm"
+import GForm from "./components/GForm"
 export default function App(){
   return(
     <>
@@ -31,6 +32,7 @@ export default function App(){
     <ChangePassword />
     <ChangeInfo />
     <GoogleForm />
+    <GForm />
     </>
   )
 }
