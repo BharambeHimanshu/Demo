@@ -56,7 +56,7 @@ export default function AddStudent(){
                     </label>
                     </div>
                     <div className="mt-5">
-                    <button className="text-center bg-transparent hover:bg-gray-800 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-500">
+                    <button className="text-center bg-transparent hover:bg-gray-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-800">
                         Add
                     </button>
                   </div>
