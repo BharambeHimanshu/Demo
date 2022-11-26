@@ -3,12 +3,7 @@ import React from "react";
 export default function StudentDashboard() {
     return(
         <>
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
   <title>Industry Mentor report</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
   <link
     rel="stylesheet"
     href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -16,13 +11,6 @@ export default function StudentDashboard() {
   <link
     href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
     rel="stylesheet"
-  />
-  {/*Replace with your tailwind.css once created*/}
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n        .max-h-64 {\n            max-height: 16rem;\n        }\n        /*Quick overrides of the form input as using the CDN version*/\n        .form-input,\n        .form-textarea,\n        .form-select,\n        .form-multiselect {\n            background-color: #edf2f7;\n        }\n    "
-    }}
   />
   <nav id="header" className="bg-white fixed w-full z-10 top-0 shadow">
     <div className="w-full container mx-auto flex flex-wrap items-center justify-between my-4">
@@ -86,28 +74,27 @@ export default function StudentDashboard() {
         </ul>
       </div>
     </div>
-    {/*Section container*/}
+
     <section className="w-full lg:w-4/5">
-      {/*Title*/}
+
       <h1 className="flex items-center font-sans font-bold break-normal text-gray-700 px-2 text-xl mt-12 lg:mt-0 md:text-2xl">
         Hey Industry Mentor
       </h1>
-      {/*divider*/}
+
       <hr className="bg-gray-300 my-12" />
-      {/*Card*/}
+
       <div className="p-8 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
         <li>
           The Industry mentor shall provide a final assessment about the student
         </li>
       </div>
-      {/*/Card*/}
-      {/*divider*/}
+
       <hr className="bg-gray-300 my-12" />
-      {/*Title*/}
+
       <h2 className="font-sans font-bold break-normal text-gray-700 px-2 pb-8 text-xl">
         Student info
       </h2>
-      {/*Card*/}
+
       <div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
         <form>
           <div className="md:flex mb-6">
@@ -166,14 +153,13 @@ export default function StudentDashboard() {
           </div>
         </form>
       </div>
-      {/*/Card*/}
-      {/*divider*/}
+
       <hr className="bg-gray-300 my-12" />
-      {/*Title*/}
+
       <h2 className="font-sans font-bold break-normal text-gray-700 px-2 pb-8 text-xl">
         Review
       </h2>
-      {/*Card*/}
+
       <div id="section3" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
         <form>
           <div className="md:flex mb-6">

@@ -17,7 +17,7 @@ import Form from "./components/Form"
 export default function App(){
   return(
     <>
-    <SubMenu>
+    {/* <SubMenu>
     <AddStudent/>
     <DeleteStudent/>
     <ViewSudent />
@@ -32,7 +32,7 @@ export default function App(){
     <ChangePassword />
     <ChangeInfo />
     </SubMenu>
-    <Form />
+    <Form /> */}
     <StudentDashboard />
     </>
   )
