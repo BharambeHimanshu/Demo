@@ -5,7 +5,7 @@ export default function AddStudent(){
         <>
         <div
           className="min-h-screen py-40 "
-              style={{ backgroundImage: "linear-gradient(#1d2630,#485563)" }}
+              style={{ backgroundImage: "linear-gradient(#1d2630,#222536)" }}
         >
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-gray-50 rounded-xl mx-auto shadow-lg overflow-hidden">

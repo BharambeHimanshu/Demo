@@ -12,11 +12,12 @@ import ChangePassword from "./components/ChangePassword"
 import ChangeInfo from "./components/ChangeInfo"
 import AllocatedStudent from "./components/AllocatedStudents"
 import StudentList from "./components/StudentsList"
-import GoogleForm from "./components/GoogleForm"
-import GForm from "./components/GForm"
+import StudentDashboard from "./components/StudentDashboard"
+import Form from "./components/Form"
 export default function App(){
   return(
     <>
+    <SubMenu>
     <AddStudent/>
     <DeleteStudent/>
     <ViewSudent />
@@ -28,11 +29,11 @@ export default function App(){
     <StudentList />
     <AllocatedStudent />
     <FileUpload />
-    <SubMenu />
     <ChangePassword />
     <ChangeInfo />
-    <GoogleForm />
-    <GForm />
+    </SubMenu>
+    <Form />
+    <StudentDashboard />
     </>
   )
 }
