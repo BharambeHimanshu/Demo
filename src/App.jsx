@@ -12,12 +12,15 @@ import ChangePassword from "./components/ChangePassword"
 import ChangeInfo from "./components/ChangeInfo"
 import AllocatedStudent from "./components/AllocatedStudents"
 import StudentList from "./components/StudentsList"
-import StudentDashboard from "./components/StudentDashboard"
-import Form from "./components/Form"
+// import StudentDashboard from "./components/StudentDashboard"
+// import Form from "./components/Form"
+import ContactForm from "./components/ContactForm"
+import Navbar from "./components/Navbar"
+// import Sidebar from './components/Sidebar'
 export default function App(){
   return(
     <>
-    {/* <SubMenu>
+    <SubMenu>
     <AddStudent/>
     <DeleteStudent/>
     <ViewSudent />
@@ -31,9 +34,12 @@ export default function App(){
     <FileUpload />
     <ChangePassword />
     <ChangeInfo />
-    </SubMenu>
-    <Form /> */}
-    <StudentDashboard />
+    </SubMenu> 
+    {/* <Form /> */}
+    <ContactForm />
+    {/* <StudentDashboard /> */}
+    <Navbar />
+    {/* <Sidebar /> */}
     </>
   )
 }
