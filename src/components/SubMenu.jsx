@@ -1,6 +1,5 @@
 import React from "react";
-
-export default function SubMenu( { children }){
+export default function SubMenu(){
     return(
         <>
         {/* For Mobile Device */}
@@ -251,7 +250,6 @@ export default function SubMenu( { children }){
             </ul>
         </nav>
         </div>
-        {children}
         </>
     )
 }

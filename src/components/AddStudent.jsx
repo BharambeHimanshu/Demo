@@ -7,6 +7,9 @@ export default function AddStudent(){
           className="min-h-screen py-40 "
               style={{ backgroundImage: "linear-gradient(#1d2630,#222536)" }}
         >
+          <button className="text-center justify-center bg-transparent hover:bg-gray-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-800">
+              Back
+          </button>
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-gray-50 rounded-xl mx-auto shadow-lg overflow-hidden">
               <div
@@ -55,6 +58,9 @@ export default function AddStudent(){
                         <div class="title px-2">Second</div>
                     </label>
                     </div>
+                    <hr />
+                      <label class="block text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload file</label>
+                      <input class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-50  dark:placeholder-gray-400" id="file_input" type="file"/>
                     <div className="mt-5">
                     <button className="text-center bg-transparent hover:bg-gray-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-800">
                         Add

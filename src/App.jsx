@@ -20,9 +20,9 @@ import Navbar from "./components/Navbar"
 export default function App(){
   return(
     <>
-    <SubMenu>
+    <SubMenu />
     <AddStudent/>
-    <DeleteStudent/>
+    <DeleteStudent />
     <ViewSudent />
     <AddTeacher />
     <DeleteTeacher />
@@ -34,7 +34,6 @@ export default function App(){
     <FileUpload />
     <ChangePassword />
     <ChangeInfo />
-    </SubMenu> 
     {/* <Form /> */}
     <ContactForm />
     {/* <StudentDashboard /> */}
