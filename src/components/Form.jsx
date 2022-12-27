@@ -1,17 +1,9 @@
 import React from "react";
 
-export default function StudentDashboard() {
+export default function Form() {
     return(
         <>
   <title>Industry Mentor report</title>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
-  />
-  <link
-    href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
-    rel="stylesheet"
-  />
   <nav id="header" className="bg-white fixed w-full z-10 top-0 shadow">
     <div className="w-full container mx-auto flex flex-wrap items-center justify-between my-4">
       <div className="pl-4 md:pl-0">
@@ -31,7 +23,7 @@ export default function StudentDashboard() {
       </div>
     </div>
   </nav>
-  {/*Container*/}
+  {/Container/}
   <div className="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-16">
     <div className="w-full lg:w-1/5 px-6 text-xl text-gray-800 leading-normal">
       <p className="text-base font-bold py-2 lg:pb-6 text-gray-700">Menu</p>
@@ -60,7 +52,7 @@ export default function StudentDashboard() {
               href="#section2"
               className="block pl-4 align-middle text-gray-700 no-underline hover:text-yellow-600"
             >
-              <span className="pb-1 md:pb-0 text-sm">Student info</span>
+              <span className="pb-1 md:pb-0 text-sm">Marks Assessment</span>
             </a>
           </li>
           <li className="py-1 md:my-2 hover:bg-yellow-100 lg:hover:bg-transparent border-l-4 border-transparent">
@@ -80,14 +72,145 @@ export default function StudentDashboard() {
       <h1 className="flex items-center font-sans font-bold break-normal text-gray-700 px-2 text-xl mt-12 lg:mt-0 md:text-2xl">
         Hey Industry Mentor
       </h1>
-
+      <h4 className="flex items-center font-sans font-bold break-normal text-gray-700 px-2 text-xl mt-12 lg:mt-0 md:text-xl">Student name</h4>
       <hr className="bg-gray-300 my-12" />
 
-      <div className="p-8 mt-6 lg:mt-0 leading-normal rounded shadow bg-white">
-        <li>
-          The Industry mentor shall provide a final assessment about the student
-        </li>
+<h2 className="font-sans font-bold break-normal text-gray-700 px-2 pb-8 text-xl">
+  Mark Assessment
+</h2>
+
+<div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+<div className="">
+                <select id="user" className="text-xl text-gray-800 px-4 py-3 rounded-lg w-small  focus:bg-gray-100 border border-gray-200 focus:outline-none ">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                </select>
+  </div>
+  <br></br>
+  <form>
+
+    <div className="md:flex mb-6">
+      <div className="md:w-1/3">
+        <label
+          className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
+          htmlFor="my-textfield"
+        >
+          Punctuality/Discipline
+        </label>
       </div>
+      <div className="md:w-2/3">
+        <input
+          className="form-input block w-full focus:bg-white"
+          id="my-textfield"
+          type="number"
+          defaultValue=""
+        />
+        <p className="py-2 text-sm text-gray-600">
+          *Enter the marks recieved by the student
+        </p>
+      </div>
+    </div>
+    <div className="md:flex mb-6">
+      <div className="md:w-1/3">
+        <label
+          className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
+          htmlFor="my-textfield"
+        >
+          Learning intiative
+        </label>
+      </div>
+      <div className="md:w-2/3">
+        <input
+          className="form-input block w-full focus:bg-white"
+          id="my-textfield"
+          type="number"
+          defaultValue=""
+        />
+        <p className="py-2 text-sm text-gray-600">
+          *Enter the marks recieved by the student
+        </p>
+      </div>
+    </div>
+    <div className="md:flex mb-6">
+      <div className="md:w-1/3">
+        <label
+          className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
+          htmlFor="my-textfield"
+        >
+          Daily diary/Weekly diary maintainance
+        </label>
+      </div>
+      <div className="md:w-2/3">
+        <input
+          className="form-input block w-full focus:bg-white"
+          id="my-textfield"
+          type="number"
+          defaultValue=""
+        />
+        <p className="py-2 text-sm text-gray-600">
+          *Enter the marks recieved by the student
+        </p>
+      </div>
+    </div>
+    <div className="md:flex mb-6">
+      <div className="md:w-1/3">
+        <label
+          className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
+          htmlFor="my-multiselect"
+        >
+          Inplant training report writing
+        </label>
+      </div>
+      <div className="md:w-2/3">
+        <input
+          className="form-input block w-full focus:bg-white"
+          id="my-textfield"
+          type="number"
+          defaultValue=""
+        />
+        <p className="py-2 text-sm text-gray-600">
+          *Enter the marks recieved by the student
+        </p>
+      </div>
+    </div>
+    <div className="md:flex mb-6">
+      <div className="md:w-1/3">
+        <label
+          className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
+          htmlFor="my-multiselect"
+        >
+          Knowledge gained/Skills achieved
+        </label>
+      </div>
+      <div className="md:w-2/3">
+        <input
+          className="form-input block w-full focus:bg-white"
+          id="my-textfield"
+          type="number"
+          defaultValue=""
+        />
+        <p className="py-2 text-sm text-gray-600">
+          *Enter the marks recieved by the student
+        </p>
+      </div>
+    </div>
+    <div className="md:flex md:items-center">
+      <div className="md:w-1/3" />
+      <div className="md:w-2/3">
+        <button
+          className="shadow bg-yellow-700 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+          type="button"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
 
       <hr className="bg-gray-300 my-12" />
 
@@ -95,29 +218,8 @@ export default function StudentDashboard() {
         Student info
       </h2>
 
-      <div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
+      <div id="section3" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
         <form>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-textfield"
-              >
-                Student name
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="text"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *name of student under your guidance
-              </p>
-            </div>
-          </div>
           <div className="md:flex mb-6">
             <div className="md:w-1/3">
               <label
@@ -137,133 +239,6 @@ export default function StudentDashboard() {
               />
               <p className="py-2 text-sm text-gray-600">
                 Review about the student
-              </p>
-            </div>
-          </div>
-          <div className="md:flex md:items-center">
-            <div className="md:w-1/3" />
-            <div className="md:w-2/3">
-              <button
-                className="shadow bg-yellow-700 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                type="button"
-              >
-                Save
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <hr className="bg-gray-300 my-12" />
-
-      <h2 className="font-sans font-bold break-normal text-gray-700 px-2 pb-8 text-xl">
-        Review
-      </h2>
-
-      <div id="section3" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-        <form>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-textfield"
-              >
-                Punctuality/Discipline
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="number"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *Enter the marks recieved by the student
-              </p>
-            </div>
-          </div>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-textfield"
-              >
-                Learning intiative
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="number"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *Enter the marks recieved by the student
-              </p>
-            </div>
-          </div>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-textfield"
-              >
-                Daily diary/Weekly diary maintainance
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="number"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *Enter the marks recieved by the student
-              </p>
-            </div>
-          </div>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-multiselect"
-              >
-                Inplant training report writing
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="number"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *Enter the marks recieved by the student
-              </p>
-            </div>
-          </div>
-          <div className="md:flex mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-600 font-bold md:text-left mb-3 md:mb-0 pr-4"
-                htmlFor="my-multiselect"
-              >
-                Knowledge gained/Skills achieved
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <input
-                className="form-input block w-full focus:bg-white"
-                id="my-textfield"
-                type="number"
-                defaultValue=""
-              />
-              <p className="py-2 text-sm text-gray-600">
-                *Enter the marks recieved by the student
               </p>
             </div>
           </div>

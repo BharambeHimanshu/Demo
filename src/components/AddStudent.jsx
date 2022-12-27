@@ -7,9 +7,6 @@ export default function AddStudent(){
           className="min-h-screen py-40 "
               style={{ backgroundImage: "linear-gradient(#1d2630,#222536)" }}
         >
-          <button className="text-center justify-center bg-transparent hover:bg-gray-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded bg-gray-800">
-              Back
-          </button>
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-gray-50 rounded-xl mx-auto shadow-lg overflow-hidden">
               <div

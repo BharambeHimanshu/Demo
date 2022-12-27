@@ -15,29 +15,13 @@ import StudentList from "./components/StudentsList"
 import ContactForm from "./components/ContactForm"
 import Navbar from "./components/Navbar"
 import Login from "./components/Login"
+import LandingPage from "./components/LandingPage"
+import Form from "./components/Form"
+import Table from "./components/Table"
 export default function App(){
   return(
     <>
-    {/* <SubMenu />
-    <AddStudent/>
-    <DeleteStudent />
-    <ViewSudent />
-    <AddTeacher />
-    <DeleteTeacher />
-    <ViewTeacher />
-    <AllocateMentor />
-    <ViewAllocateMentor />
-    <StudentList />
-    <AllocatedStudent />
-    <FileUpload />
-    <ChangePassword /> */}
-    {/* <ChangeInfo /> */}
-    {/* <Form /> */}
-    {/* <ContactForm /> */}
-    {/* <StudentDashboard /> */}
-    <Navbar />
-    {/* <Sidebar /> */}
-    {/* <Login /> */}
+    <Table />
     </>
   )
 }
