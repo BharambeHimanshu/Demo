@@ -10,7 +10,7 @@ export default function AddStudent(){
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-gray-50 rounded-xl mx-auto shadow-lg overflow-hidden">
               <div
-                className="bg-[url('https://i.ibb.co/TbFbD4W/Project.webp')] w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center"
+                className="bg-[url('https://i.ibb.co/TbFbD4W/Project.webp')] w-full lg:w-1/2 flex flex-col items-center justify-center p-[3rem] bg-no-repeat bg-cover bg-center"
                 style={{ backgroundImage: "https://i.ibb.co/TbFbD4W/Project.webp"}}
               >
                 <h1 className="text-white text-3xl mb-3">ADD STUDENT</h1>
