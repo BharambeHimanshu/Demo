@@ -11,7 +11,7 @@ export default function FileUpload() {
         <article aria-label="File Upload Modal" className="relative h-full flex flex-col bg-white shadow-xl rounded-md" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" ondragleave="dragLeaveHandler(event);" ondragenter="dragEnterHandler(event);">
           <div id="overlay" className="w-full h-full absolute top-0 left-0 pointer-events-none z-50 flex flex-col items-center justify-center rounded-md">
           </div>
-          <section className="h-full overflow-auto p-8 w-full h-full flex flex-col">
+          <section className="h-full overflow-auto p-8 w-full flex flex-col">
             <header className="border-dashed border-2 border-gray-400 py-12 flex flex-col justify-center items-center">
               <p className="mb-3 font-semibold text-gray-900 flex flex-wrap justify-center">
                 <span>Drag and drop your</span>&nbsp;<span>files anywhere or</span>

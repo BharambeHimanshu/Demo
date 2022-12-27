@@ -4,6 +4,14 @@ export default function Form() {
     return(
         <>
   <title>Industry Mentor report</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
+  />
+  <link
+    href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
+    rel="stylesheet"
+  />
   <nav id="header" className="bg-white fixed w-full z-10 top-0 shadow">
     <div className="w-full container mx-auto flex flex-wrap items-center justify-between my-4">
       <div className="pl-4 md:pl-0">
@@ -23,7 +31,7 @@ export default function Form() {
       </div>
     </div>
   </nav>
-  {/Container/}
+  {/*Container*/}
   <div className="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-16">
     <div className="w-full lg:w-1/5 px-6 text-xl text-gray-800 leading-normal">
       <p className="text-base font-bold py-2 lg:pb-6 text-gray-700">Menu</p>
@@ -81,7 +89,7 @@ export default function Form() {
 
 <div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
 <div className="">
-                <select id="user" className="text-xl text-gray-800 px-4 py-3 rounded-lg w-small  focus:bg-gray-100 border border-gray-200 focus:outline-none ">
+                <select id="user" className="text-xl text-gray-800 px-1 py-1 rounded-lg w-small  focus:bg-gray-100 border border-gray-200 focus:outline-none">
                 <option value="January">January</option>
                 <option value="February">February</option>
                 <option value="March">March</option>

@@ -30,7 +30,6 @@ tr th:nth-child(1) {
   box-sizing: border-box;
 }
 body{
-  background-color: #32312f;
   font-family: sans-serif;
 }
 .table-container{
